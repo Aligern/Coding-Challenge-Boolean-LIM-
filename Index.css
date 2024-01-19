@@ -1,0 +1,68 @@
+* {
+    box-sizing: content-box
+}
+
+body {
+    font-family: 'Lucida Sans', sans-serif; 
+    color: white;
+    text-align: center;
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+}
+
+.Contenitore {
+    margin: 30px 20%;
+    background-color: rgba(0,0,0,0.6);
+    width: 60%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 70px;
+}
+
+.Logo {
+    margin-top: 35px;
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    color: greenyellow;
+}
+
+.Navigatore {
+    margin: auto;
+    background-color: greenyellow;
+    width: 80%;
+    height: 70%;
+    padding: 10px;
+}
+
+.Lista {
+    text-align: left;
+    margin-left: 10%;
+}
+
+h2 {
+    display: inline-block;
+}
+
+#Carica1 {
+    background-color: orange;
+    height: 30px;
+    width:  40%;
+    border-radius: 8px;
+}
+
+#Carica2 {
+    background-color: green;
+    height: 30px;
+    width:  70%;
+    border-radius: 8px;
+}
+
+#Carica3 {
+    background-color: red;
+    height: 30px;
+    width:  25%;
+    border-radius: 8px;
+}
